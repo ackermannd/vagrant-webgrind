@@ -1,0 +1,5867 @@
+version: 1
+creator: xdebug 2.2.5
+cmd: /oldsample/index.php
+part: 1
+positions: line
+
+events: Time
+
+fl=php:internal
+fn=php::error_reporting
+2 97
+
+fl=php:internal
+fn=php::defined
+37 51
+
+fl=php:internal
+fn=php::define
+38 118
+
+fl=php:internal
+fn=php::defined
+47 1
+
+fl=php:internal
+fn=php::dirname
+48 14
+
+fl=php:internal
+fn=php::define
+48 77
+
+fl=php:internal
+fn=php::defined
+51 2
+
+fl=php:internal
+fn=php::define
+52 31
+
+fl=php:internal
+fn=php::define
+55 30
+
+fl=php:internal
+fn=php::define
+56 42
+
+fl=php:internal
+fn=php::define
+57 1
+
+fl=php:internal
+fn=php::define
+58 35
+
+fl=/oldsample/lib/Smarty/Smarty.class.php
+fn=require_once::/oldsample/lib/Smarty/Smarty.class.php
+1 442
+cfl=php:internal
+cfn=php::defined
+calls=1 0 0
+37 51
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+38 118
+cfl=php:internal
+cfn=php::defined
+calls=1 0 0
+47 1
+cfl=php:internal
+cfn=php::dirname
+calls=1 0 0
+48 14
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+48 77
+cfl=php:internal
+cfn=php::defined
+calls=1 0 0
+51 2
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+52 31
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+55 30
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+56 42
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+57 1
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+58 35
+
+fl=php:internal
+fn=php::is_array
+582 20
+
+fl=/oldsample/lib/Smarty/Smarty.class.php
+fn=Smarty->assign
+580 215
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+582 20
+
+fl=/oldsample/lib/Smarty/Smarty.class.php
+fn=Smarty->Smarty
+568 154
+cfl=/oldsample/lib/Smarty/Smarty.class.php
+cfn=Smarty->assign
+calls=1 0 0
+571 236
+
+fl=php:internal
+fn=php::define
+25 9
+
+fl=php:internal
+fn=php::define
+26 34
+
+fl=php:internal
+fn=php::define
+27 31
+
+fl=php:internal
+fn=php::define
+28 30
+
+fl=php:internal
+fn=php::define
+29 1
+
+fl=php:internal
+fn=php::define
+34 2
+
+fl=php:internal
+fn=php::function_exists
+36 20
+
+fl=php:internal
+fn=php::zend_version
+37 2
+
+fl=php:internal
+fn=php::version_compare
+37 66
+
+fl=php:internal
+fn=php::define
+37 34
+
+fl=php:internal
+fn=php::substr
+39 14
+
+fl=php:internal
+fn=php::define
+44 33
+
+fl=php:internal
+fn=php::define
+45 30
+
+fl=php:internal
+fn=php::define
+46 56
+
+fl=php:internal
+fn=php::ini_set
+55 100
+
+fl=/usr/share/pear/PEAR5.php
+fn=include_once::/usr/share/pear/PEAR5.php
+1 2
+
+fl=/usr/share/pear/PEAR.php
+fn=require_once::/usr/share/pear/PEAR.php
+1 1015
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+25 9
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+26 34
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+27 31
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+28 30
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+29 1
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+34 2
+cfl=php:internal
+cfn=php::function_exists
+calls=1 0 0
+36 20
+cfl=php:internal
+cfn=php::zend_version
+calls=1 0 0
+37 2
+cfl=php:internal
+cfn=php::version_compare
+calls=1 0 0
+37 66
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+37 34
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+39 14
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+44 33
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+45 30
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+46 56
+cfl=php:internal
+cfn=php::ini_set
+calls=1 0 0
+55 100
+cfl=/usr/share/pear/PEAR5.php
+cfn=include_once::/usr/share/pear/PEAR5.php
+calls=1 0 0
+730 2
+
+fl=php:internal
+fn=php::define
+67 36
+
+fl=php:internal
+fn=php::define
+68 30
+
+fl=php:internal
+fn=php::define
+69 1
+
+fl=php:internal
+fn=php::define
+70 30
+
+fl=php:internal
+fn=php::define
+71 1
+
+fl=php:internal
+fn=php::define
+72 30
+
+fl=php:internal
+fn=php::define
+73 1
+
+fl=php:internal
+fn=php::define
+74 1
+
+fl=php:internal
+fn=php::define
+75 2
+
+fl=php:internal
+fn=php::define
+76 2
+
+fl=php:internal
+fn=php::define
+77 31
+
+fl=php:internal
+fn=php::define
+78 2
+
+fl=php:internal
+fn=php::define
+79 30
+
+fl=php:internal
+fn=php::define
+80 31
+
+fl=php:internal
+fn=php::define
+81 31
+
+fl=php:internal
+fn=php::define
+82 1
+
+fl=php:internal
+fn=php::define
+83 16
+
+fl=php:internal
+fn=php::define
+84 1
+
+fl=php:internal
+fn=php::define
+85 3
+
+fl=php:internal
+fn=php::define
+86 1
+
+fl=php:internal
+fn=php::define
+87 4
+
+fl=php:internal
+fn=php::define
+88 3
+
+fl=php:internal
+fn=php::define
+89 1
+
+fl=php:internal
+fn=php::define
+90 1
+
+fl=php:internal
+fn=php::define
+91 2
+
+fl=php:internal
+fn=php::define
+92 33
+
+fl=php:internal
+fn=php::define
+93 2
+
+fl=php:internal
+fn=php::define
+94 46
+
+fl=php:internal
+fn=php::define
+95 30
+
+fl=php:internal
+fn=php::define
+96 1
+
+fl=php:internal
+fn=php::define
+97 0
+
+fl=php:internal
+fn=php::define
+98 1
+
+fl=php:internal
+fn=php::define
+99 33
+
+fl=php:internal
+fn=php::define
+100 63
+
+fl=php:internal
+fn=php::define
+101 2
+
+fl=php:internal
+fn=php::define
+102 1
+
+fl=php:internal
+fn=php::define
+109 39
+
+fl=php:internal
+fn=php::define
+110 1
+
+fl=php:internal
+fn=php::define
+119 15
+
+fl=php:internal
+fn=php::define
+124 3
+
+fl=php:internal
+fn=php::define
+129 1
+
+fl=php:internal
+fn=php::define
+134 1
+
+fl=php:internal
+fn=php::define
+142 1
+
+fl=php:internal
+fn=php::define
+151 1
+
+fl=php:internal
+fn=php::define
+158 407
+
+fl=php:internal
+fn=php::define
+164 2
+
+fl=php:internal
+fn=php::define
+170 11
+
+fl=php:internal
+fn=php::define
+176 1
+
+fl=php:internal
+fn=php::define
+191 2
+
+fl=php:internal
+fn=php::define
+198 15
+
+fl=php:internal
+fn=php::define
+204 31
+
+fl=php:internal
+fn=php::define
+210 1
+
+fl=/usr/share/pear/MDB2.php
+fn=require_once::/usr/share/pear/MDB2.php
+1 6351
+cfl=/usr/share/pear/PEAR.php
+cfn=require_once::/usr/share/pear/PEAR.php
+calls=1 0 0
+55 1484
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+67 36
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+68 30
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+69 1
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+70 30
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+71 1
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+72 30
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+73 1
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+74 1
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+75 2
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+76 2
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+77 31
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+78 2
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+79 30
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+80 31
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+81 31
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+82 1
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+83 16
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+84 1
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+85 3
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+86 1
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+87 4
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+88 3
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+89 1
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+90 1
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+91 2
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+92 33
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+93 2
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+94 46
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+95 30
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+96 1
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+97 0
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+98 1
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+99 33
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+100 63
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+101 2
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+102 1
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+109 39
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+110 1
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+119 15
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+124 3
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+129 1
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+134 1
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+142 1
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+151 1
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+158 407
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+164 2
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+170 11
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+176 1
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+191 2
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+198 15
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+204 31
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+210 1
+
+fl=php:internal
+fn=php::is_array
+795 2
+
+fl=php:internal
+fn=php::array_merge
+796 35
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2::parseDSN
+791 125
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+795 2
+cfl=php:internal
+cfn=php::array_merge
+calls=1 0 0
+796 35
+
+fl=php:internal
+fn=php::array_merge
+485 12
+
+fl=php:internal
+fn=php::array_keys
+486 38
+
+fl=php:internal
+fn=php::count
+487 20
+
+fl=php:internal
+fn=php::is_array
+795 0
+
+fl=php:internal
+fn=php::array_merge
+796 7
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2::parseDSN
+791 48
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+795 0
+cfl=php:internal
+cfn=php::array_merge
+calls=1 0 0
+796 7
+
+fl=php:internal
+fn=php::phpversion
+306 13
+
+fl=php:internal
+fn=php::version_compare
+306 6
+
+fl=php:internal
+fn=php::class_exists
+307 10
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2::classExists
+304 69
+cfl=php:internal
+cfn=php::phpversion
+calls=1 0 0
+306 13
+cfl=php:internal
+cfn=php::version_compare
+calls=1 0 0
+306 6
+cfl=php:internal
+cfn=php::class_exists
+calls=1 0 0
+307 10
+
+fl=php:internal
+fn=php::str_replace
+328 32
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=include_once::/usr/share/pear/MDB2/Driver/mysql.php
+1 5
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2::loadClass
+325 9244
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2::classExists
+calls=1 0 0
+327 100
+cfl=php:internal
+cfn=php::str_replace
+calls=1 0 0
+328 32
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=include_once::/usr/share/pear/MDB2/Driver/mysql.php
+calls=1 0 0
+330 5
+
+fl=php:internal
+fn=php::is_a
+252 8
+
+fl=/usr/share/pear/PEAR.php
+fn=PEAR::isError
+250 26
+cfl=php:internal
+cfn=php::is_a
+calls=1 0 0
+252 8
+
+fl=php:internal
+fn=php::end
+1298 13
+
+fl=php:internal
+fn=php::key
+1299 12
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->__construct
+1296 85
+cfl=php:internal
+cfn=php::end
+calls=1 0 0
+1298 13
+cfl=php:internal
+cfn=php::key
+calls=1 0 0
+1299 12
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Driver_mysql->__construct
+78 77
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->__construct
+calls=1 0 0
+80 111
+
+fl=php:internal
+fn=php::is_array
+795 1
+
+fl=php:internal
+fn=php::array_merge
+796 13
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2->parseDSN
+791 90
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+795 1
+cfl=php:internal
+cfn=php::array_merge
+calls=1 0 0
+796 13
+
+fl=php:internal
+fn=php::array_key_exists
+2299 2
+
+fl=php:internal
+fn=php::array_merge
+2303 7
+
+fl=php:internal
+fn=php::is_resource
+533 0
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->disconnect
+2236 10
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Driver_mysql->disconnect
+531 54
+cfl=php:internal
+cfn=php::is_resource
+calls=1 0 0
+533 0
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->disconnect
+calls=1 0 0
+551 10
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->setDSN
+2295 122
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2->parseDSN
+calls=1 0 0
+2298 105
+cfl=php:internal
+cfn=php::array_key_exists
+calls=1 0 0
+2299 2
+cfl=php:internal
+cfn=php::array_merge
+calls=1 0 0
+2303 7
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Driver_mysql->disconnect
+calls=1 0 0
+2304 65
+
+fl=php:internal
+fn=php::is_array
+281 0
+
+fl=php:internal
+fn=php::array_key_exists
+1536 1
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->setOption
+1534 27
+cfl=php:internal
+cfn=php::array_key_exists
+calls=1 0 0
+1536 1
+
+fl=php:internal
+fn=php::is_a
+252 1
+
+fl=/usr/share/pear/PEAR.php
+fn=PEAR::isError
+250 23
+cfl=php:internal
+cfn=php::is_a
+calls=1 0 0
+252 1
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2::setOptions
+279 108
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+281 0
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->setOption
+calls=1 0 0
+283 29
+cfl=/usr/share/pear/PEAR.php
+cfn=PEAR::isError
+calls=1 0 0
+284 24
+
+fl=php:internal
+fn=php::is_a
+252 1
+
+fl=/usr/share/pear/PEAR.php
+fn=PEAR::isError
+250 22
+cfl=php:internal
+cfn=php::is_a
+calls=1 0 0
+252 1
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2::factory
+374 445
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2::parseDSN
+calls=1 0 0
+376 56
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2::loadClass
+calls=1 0 0
+385 9383
+cfl=/usr/share/pear/PEAR.php
+cfn=PEAR::isError
+calls=1 0 0
+386 35
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Driver_mysql->__construct
+calls=1 0 0
+390 188
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->setDSN
+calls=1 0 0
+391 303
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2::setOptions
+calls=1 0 0
+392 163
+cfl=/usr/share/pear/PEAR.php
+cfn=PEAR::isError
+calls=1 0 0
+393 24
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2::singleton
+481 197
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2::parseDSN
+calls=1 0 0
+484 163
+cfl=php:internal
+cfn=php::array_merge
+calls=1 0 0
+485 12
+cfl=php:internal
+cfn=php::array_keys
+calls=1 0 0
+486 38
+cfl=php:internal
+cfn=php::count
+calls=1 0 0
+487 20
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2::factory
+calls=1 0 0
+500 10598
+
+fl=php:internal
+fn=php::is_a
+252 1
+
+fl=/usr/share/pear/PEAR.php
+fn=PEAR::isError
+250 23
+cfl=php:internal
+cfn=php::is_a
+calls=1 0 0
+252 1
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->setFetchMode
+1504 8
+
+fl=/oldsample/lib/init.php
+fn=include::/oldsample/lib/init.php
+1 27291
+cfl=/oldsample/lib/Smarty/Smarty.class.php
+cfn=require_once::/oldsample/lib/Smarty/Smarty.class.php
+calls=1 0 0
+3 849
+cfl=/oldsample/lib/Smarty/Smarty.class.php
+cfn=Smarty->Smarty
+calls=1 0 0
+4 390
+cfl=/usr/share/pear/MDB2.php
+cfn=require_once::/usr/share/pear/MDB2.php
+calls=1 0 0
+8 8906
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2::singleton
+calls=1 0 0
+22 11030
+cfl=/usr/share/pear/PEAR.php
+cfn=PEAR::isError
+calls=1 0 0
+23 25
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->setFetchMode
+calls=1 0 0
+26 8
+
+fl=/oldsample/lib/classes/GameList.php
+fn=include::/oldsample/lib/classes/GameList.php
+1 1
+
+fl=/oldsample/lib/classes/GameList.php
+fn=GameList->__construct
+6 5
+
+fl=php:internal
+fn=php::preg_match
+655 217
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Driver_mysql->_modifyQuery
+650 56
+cfl=php:internal
+cfn=php::preg_match
+calls=1 0 0
+655 217
+
+fl=php:internal
+fn=php::is_resource
+393 0
+
+fl=php:internal
+fn=php::extension_loaded
+700 3
+
+fl=/usr/share/pear/PEAR.php
+fn=PEAR->loadExtension
+698 23
+cfl=php:internal
+cfn=php::extension_loaded
+calls=1 0 0
+700 3
+
+fl=php:internal
+fn=php::phpversion
+429 0
+
+fl=php:internal
+fn=php::version_compare
+429 6
+
+fl=php:internal
+fn=php::call_user_func_array:{/usr/share/pear/MDB2/Driver/mysql.php:435}
+435 5399
+
+fl=php:internal
+fn=php::mysql_select_db
+461 147
+
+fl=php:internal
+fn=php::is_resource
+393 3
+
+fl=php:internal
+fn=php::array_diff
+394 58
+
+fl=php:internal
+fn=php::count
+394 0
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Driver_mysql->connect
+391 96
+cfl=php:internal
+cfn=php::is_resource
+calls=1 0 0
+393 3
+cfl=php:internal
+cfn=php::array_diff
+calls=1 0 0
+394 58
+cfl=php:internal
+cfn=php::count
+calls=1 0 0
+394 0
+
+fl=php:internal
+fn=php::is_a
+252 0
+
+fl=/usr/share/pear/PEAR.php
+fn=PEAR->isError
+250 25
+cfl=php:internal
+cfn=php::is_a
+calls=1 0 0
+252 0
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->getConnection
+1733 70
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Driver_mysql->connect
+calls=1 0 0
+1735 159
+cfl=/usr/share/pear/PEAR.php
+cfn=PEAR->isError
+calls=1 0 0
+1736 26
+
+fl=php:internal
+fn=php::is_a
+252 0
+
+fl=/usr/share/pear/PEAR.php
+fn=PEAR->isError
+250 27
+cfl=php:internal
+cfn=php::is_a
+calls=1 0 0
+252 0
+
+fl=php:internal
+fn=php::mysql_get_server_info
+710 4
+
+fl=php:internal
+fn=php::explode
+719 32
+
+fl=php:internal
+fn=php::strpos
+720 1
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Driver_mysql->getServerVersion
+701 239
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->getConnection
+calls=1 0 0
+703 256
+cfl=/usr/share/pear/PEAR.php
+cfn=PEAR->isError
+calls=1 0 0
+704 28
+cfl=php:internal
+cfn=php::mysql_get_server_info
+calls=1 0 0
+710 4
+cfl=php:internal
+cfn=php::explode
+calls=1 0 0
+719 32
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+720 1
+
+fl=php:internal
+fn=php::is_array
+759 0
+
+fl=php:internal
+fn=php::version_compare
+760 4
+
+fl=php:internal
+fn=php::version_compare
+765 2
+
+fl=php:internal
+fn=php::version_compare
+771 2
+
+fl=php:internal
+fn=php::version_compare
+775 1
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Driver_mysql->_getServerCapabilities
+746 275
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Driver_mysql->getServerVersion
+calls=1 0 0
+758 562
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+759 0
+cfl=php:internal
+cfn=php::version_compare
+calls=1 0 0
+760 4
+cfl=php:internal
+cfn=php::version_compare
+calls=1 0 0
+765 2
+cfl=php:internal
+cfn=php::version_compare
+calls=1 0 0
+771 2
+cfl=php:internal
+cfn=php::version_compare
+calls=1 0 0
+775 1
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Driver_mysql->connect
+391 381
+cfl=php:internal
+cfn=php::is_resource
+calls=1 0 0
+393 0
+cfl=/usr/share/pear/PEAR.php
+cfn=PEAR->loadExtension
+calls=1 0 0
+403 26
+cfl=php:internal
+cfn=php::phpversion
+calls=1 0 0
+429 0
+cfl=php:internal
+cfn=php::version_compare
+calls=1 0 0
+429 6
+cfl=php:internal
+cfn=php::call_user_func_array:{/usr/share/pear/MDB2/Driver/mysql.php:435}
+calls=1 0 0
+435 5399
+cfl=php:internal
+cfn=php::mysql_select_db
+calls=1 0 0
+461 147
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Driver_mysql->_getServerCapabilities
+calls=1 0 0
+491 850
+
+fl=php:internal
+fn=php::is_a
+252 0
+
+fl=/usr/share/pear/PEAR.php
+fn=PEAR->isError
+250 23
+cfl=php:internal
+cfn=php::is_a
+calls=1 0 0
+252 0
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->getConnection
+1733 66
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Driver_mysql->connect
+calls=1 0 0
+1735 6814
+cfl=/usr/share/pear/PEAR.php
+cfn=PEAR->isError
+calls=1 0 0
+1736 24
+
+fl=php:internal
+fn=php::is_a
+252 0
+
+fl=/usr/share/pear/PEAR.php
+fn=PEAR->isError
+250 23
+cfl=php:internal
+cfn=php::is_a
+calls=1 0 0
+252 0
+
+fl=php:internal
+fn=php::array_key_exists
+1558 2
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->getOption
+1556 29
+cfl=php:internal
+cfn=php::array_key_exists
+calls=1 0 0
+1558 2
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_defaultDebugOutput
+4263 79
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->getOption
+calls=1 0 0
+4266 31
+
+fl=php:internal
+fn=php::call_user_func_array:{/usr/share/pear/MDB2.php:1591}
+1591 30
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_defaultDebugOutput
+calls=1 0 0
+1591 111
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->debug
+1582 43
+cfl=php:internal
+cfn=php::call_user_func_array:{/usr/share/pear/MDB2.php:1591}
+calls=1 0 0
+1591 142
+
+fl=php:internal
+fn=php::is_a
+252 1
+
+fl=/usr/share/pear/PEAR.php
+fn=PEAR->isError
+250 22
+cfl=php:internal
+cfn=php::is_a
+calls=1 0 0
+252 1
+
+fl=php:internal
+fn=php::is_null
+581 0
+
+fl=php:internal
+fn=php::is_null
+587 0
+
+fl=php:internal
+fn=php::mysql_query
+604 3968
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->debug
+1582 39
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Driver_mysql->_doQuery
+566 949
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->debug
+calls=1 0 0
+569 185
+cfl=/usr/share/pear/PEAR.php
+cfn=PEAR->isError
+calls=1 0 0
+571 23
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+581 0
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+587 0
+cfl=php:internal
+cfn=php::mysql_query
+calls=1 0 0
+604 3968
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->debug
+calls=1 0 0
+611 39
+
+fl=php:internal
+fn=php::is_a
+252 5
+
+fl=/usr/share/pear/PEAR.php
+fn=PEAR->isError
+250 25
+cfl=php:internal
+cfn=php::is_a
+calls=1 0 0
+252 5
+
+fl=php:internal
+fn=php::sprintf
+2566 244
+
+fl=php:internal
+fn=php::phpversion
+306 1
+
+fl=php:internal
+fn=php::version_compare
+306 9
+
+fl=php:internal
+fn=php::class_exists
+307 3
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2->classExists
+304 107
+cfl=php:internal
+cfn=php::phpversion
+calls=1 0 0
+306 1
+cfl=php:internal
+cfn=php::version_compare
+calls=1 0 0
+306 9
+cfl=php:internal
+cfn=php::class_exists
+calls=1 0 0
+307 3
+
+fl=php:internal
+fn=php::max
+3368 15
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Result_Common->__construct
+3363 42
+cfl=php:internal
+cfn=php::max
+calls=1 0 0
+3368 15
+
+fl=php:internal
+fn=php::is_a
+657 1
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2->isResultCommon
+655 24
+cfl=php:internal
+cfn=php::is_a
+calls=1 0 0
+657 1
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_wrapResult
+2541 179
+cfl=php:internal
+cfn=php::sprintf
+calls=1 0 0
+2566 244
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2->classExists
+calls=1 0 0
+2567 121
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Result_Common->__construct
+calls=1 0 0
+2572 58
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2->isResultCommon
+calls=1 0 0
+2573 25
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->query
+2502 232
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Driver_mysql->_modifyQuery
+calls=1 0 0
+2507 274
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->getConnection
+calls=1 0 0
+2509 6905
+cfl=/usr/share/pear/PEAR.php
+cfn=PEAR->isError
+calls=1 0 0
+2510 23
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Driver_mysql->_doQuery
+calls=1 0 0
+2514 5168
+cfl=/usr/share/pear/PEAR.php
+cfn=PEAR->isError
+calls=1 0 0
+2515 30
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_wrapResult
+calls=1 0 0
+2519 629
+
+fl=php:internal
+fn=php::is_a
+657 0
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2->isResultCommon
+655 24
+cfl=php:internal
+cfn=php::is_a
+calls=1 0 0
+657 0
+
+fl=php:internal
+fn=php::is_null
+1146 1
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 66
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 5
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 12
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 174
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 1
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 66
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 5
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 12
+
+fl=php:internal
+fn=php::is_a
+252 0
+
+fl=/usr/share/pear/PEAR.php
+fn=PEAR->isError
+250 23
+cfl=php:internal
+cfn=php::is_a
+calls=1 0 0
+252 0
+
+fl=php:internal
+fn=php::is_null
+3562 0
+
+fl=php:internal
+fn=php::is_null
+1146 1
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 5
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 4
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 32
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 236
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 1
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 5
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 4
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 32
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 5
+
+fl=php:internal
+fn=php::is_array
+1157 1
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 4
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 7
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 135
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 5
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 1
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 4
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 7
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 5
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 4
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 7
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 131
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 5
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 4
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 7
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 3
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 3
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 5
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 159
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 3
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 3
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 5
+
+fl=php:internal
+fn=php::is_null
+1146 1
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 4
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 8
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 7
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 135
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 1
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 4
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 8
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 7
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 5
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 4
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 8
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 200
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 5
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 4
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 8
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 4
+
+fl=php:internal
+fn=php::is_array
+1157 1
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 3
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 8
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 133
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 4
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 1
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 3
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 8
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 5
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 5
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 8
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 128
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 5
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 5
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 8
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 4
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 3
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 5
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 131
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 4
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 3
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 5
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 3
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 5
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 7
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 144
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 3
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 5
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 7
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 4
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 3
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 6
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 166
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 4
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 3
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 6
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 4
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 5
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 6
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 133
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 4
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 5
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 6
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 5
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 4
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 6
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 129
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 5
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 4
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 6
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 5
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 4
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 7
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 128
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 5
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 4
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 7
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 4
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 4
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 6
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 133
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 4
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 4
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 6
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 4
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 3
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 38
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 131
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 4
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 3
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 38
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 4
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 27
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 7
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 190
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 4
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 27
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 7
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 4
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 4
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 6
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 131
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 4
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 4
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 6
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 4
+
+fl=php:internal
+fn=php::is_array
+1157 1
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 4
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 7
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 129
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 4
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 1
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 4
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 7
+
+fl=php:internal
+fn=php::is_null
+1146 1
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 4
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 3
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 5
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 137
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 1
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 4
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 3
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 5
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 30
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 4
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 6
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 166
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 30
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 4
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 6
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 4
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 4
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 61
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 136
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 4
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 4
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 61
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 4
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 4
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 6
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 131
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 4
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 4
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 6
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 5
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 3
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 5
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 146
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 5
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 3
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 5
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 4
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 4
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 6
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 131
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 4
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 4
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 6
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 5
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 4
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 8
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 165
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 5
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 4
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 8
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 4
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 18
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 6
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 129
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 4
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 18
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 6
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 4
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 3
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 6
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 134
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 4
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 3
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 6
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 3
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 4
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 6
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 135
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 3
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 4
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 6
+
+fl=php:internal
+fn=php::is_null
+1146 1
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 5
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 4
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 6
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 130
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 1
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 5
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 4
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 6
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 20
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 2
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 6
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 162
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 20
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 2
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 6
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 4
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 3
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 5
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 130
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 4
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 3
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 5
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 4
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 3
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 6
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 188
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 4
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 3
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 6
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 4
+
+fl=php:internal
+fn=php::is_array
+1157 1
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 26
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 6
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 144
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 4
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 1
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 26
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 6
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 4
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 3
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 6
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 162
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 4
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 3
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 6
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 3
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 4
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 6
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 130
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 3
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 4
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 6
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 4
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 4
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 22
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 130
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 4
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 4
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 22
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 4
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 4
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 414
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 176
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 4
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 4
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 414
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 5
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 5
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 7
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 138
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 5
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 5
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 7
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 4
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 4
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 7
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 130
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 4
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 4
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 7
+
+fl=php:internal
+fn=php::is_null
+1146 1
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 3
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 4
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 6
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 132
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 1
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 3
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 4
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 6
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 3
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 3
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 8
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 133
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 3
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 3
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 8
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 4
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 4
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 8
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 128
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 4
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 4
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 8
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 4
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 5
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 12
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 160
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 4
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 5
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 12
+
+fl=php:internal
+fn=php::is_null
+1146 1
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 7
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 5
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 10
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 560
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 1
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 7
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 5
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 10
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 5
+
+fl=php:internal
+fn=php::is_array
+1157 1
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 5
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 10
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 285
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 5
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 1
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 5
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 10
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 10
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 12
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 9
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 206
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 10
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 12
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 9
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 5
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 55
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 9
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 240
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 5
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 55
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 9
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 7
+
+fl=php:internal
+fn=php::is_array
+1157 1
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 10
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 20
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 218
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 7
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 1
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 10
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 20
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 5
+
+fl=php:internal
+fn=php::is_array
+1157 2
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 5
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 15
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 284
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 5
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 2
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 5
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 15
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 15
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 5
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 15
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 324
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 15
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 5
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 15
+
+fl=php:internal
+fn=php::is_null
+1146 1
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 95
+
+fl=php:internal
+fn=php::is_array
+1157 1
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 5
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 10
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 229
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 1
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 95
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 1
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 5
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 10
+
+fl=php:internal
+fn=php::is_null
+1146 1
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 5
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 5
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 10
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 213
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 1
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 5
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 5
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 10
+
+fl=php:internal
+fn=php::is_null
+1146 1
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 5
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 5
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 7
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 224
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 1
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 5
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 5
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 7
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 5
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 29
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 6
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 132
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 5
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 29
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 6
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 3
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 4
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 6
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 132
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 3
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 4
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 6
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 4
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 4
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 6
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 136
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 4
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 4
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 6
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 4
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 4
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 43
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 165
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 4
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 4
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 43
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 2
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 77
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 2
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Result_Common->fetchAll
+3550 2687
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3554 260
+cfl=/usr/share/pear/PEAR.php
+cfn=PEAR->isError
+calls=1 0 0
+3555 24
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+3562 0
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 280
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 154
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 148
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 174
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 158
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 220
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 152
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 149
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 145
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 160
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 182
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 150
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 146
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 147
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 149
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 178
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 231
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 148
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 147
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 152
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 209
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 206
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 148
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 162
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 148
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 184
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 159
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 149
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 150
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 149
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 195
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 145
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 203
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 185
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 179
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 146
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 163
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 601
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 157
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 147
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 149
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 150
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 147
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 185
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 586
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 308
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 240
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 311
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 258
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 313
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 361
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 343
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 236
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 244
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 174
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 147
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 153
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 218
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 81
+
+fl=php:internal
+fn=php::is_resource
+1263 2
+
+fl=php:internal
+fn=php::mysql_free_result
+1264 10
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->free
+1261 59
+cfl=php:internal
+cfn=php::is_resource
+calls=1 0 0
+1263 2
+cfl=php:internal
+cfn=php::mysql_free_result
+calls=1 0 0
+1264 10
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->queryAll
+3303 250
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->query
+calls=1 0 0
+3306 13264
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2->isResultCommon
+calls=1 0 0
+3307 25
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Result_Common->fetchAll
+calls=1 0 0
+3311 14752
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->free
+calls=1 0 0
+3312 72
+
+fl=php:internal
+fn=php::preg_match
+655 44
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Driver_mysql->_modifyQuery
+650 34
+cfl=php:internal
+cfn=php::preg_match
+calls=1 0 0
+655 44
+
+fl=php:internal
+fn=php::is_resource
+393 0
+
+fl=php:internal
+fn=php::array_diff
+394 34
+
+fl=php:internal
+fn=php::count
+394 2
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Driver_mysql->connect
+391 83
+cfl=php:internal
+cfn=php::is_resource
+calls=1 0 0
+393 0
+cfl=php:internal
+cfn=php::array_diff
+calls=1 0 0
+394 34
+cfl=php:internal
+cfn=php::count
+calls=1 0 0
+394 2
+
+fl=php:internal
+fn=php::is_a
+252 0
+
+fl=/usr/share/pear/PEAR.php
+fn=PEAR->isError
+250 28
+cfl=php:internal
+cfn=php::is_a
+calls=1 0 0
+252 0
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->getConnection
+1733 65
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Driver_mysql->connect
+calls=1 0 0
+1735 122
+cfl=/usr/share/pear/PEAR.php
+cfn=PEAR->isError
+calls=1 0 0
+1736 29
+
+fl=php:internal
+fn=php::is_a
+252 0
+
+fl=/usr/share/pear/PEAR.php
+fn=PEAR->isError
+250 49
+cfl=php:internal
+cfn=php::is_a
+calls=1 0 0
+252 0
+
+fl=php:internal
+fn=php::array_key_exists
+1558 3
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->getOption
+1556 29
+cfl=php:internal
+cfn=php::array_key_exists
+calls=1 0 0
+1558 3
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_defaultDebugOutput
+4263 86
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->getOption
+calls=1 0 0
+4266 32
+
+fl=php:internal
+fn=php::call_user_func_array:{/usr/share/pear/MDB2.php:1591}
+1591 36
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_defaultDebugOutput
+calls=1 0 0
+1591 118
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->debug
+1582 47
+cfl=php:internal
+cfn=php::call_user_func_array:{/usr/share/pear/MDB2.php:1591}
+calls=1 0 0
+1591 154
+
+fl=php:internal
+fn=php::is_a
+252 0
+
+fl=/usr/share/pear/PEAR.php
+fn=PEAR->isError
+250 22
+cfl=php:internal
+cfn=php::is_a
+calls=1 0 0
+252 0
+
+fl=php:internal
+fn=php::is_null
+581 1
+
+fl=php:internal
+fn=php::is_null
+587 0
+
+fl=php:internal
+fn=php::mysql_query
+604 656
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->debug
+1582 15
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Driver_mysql->_doQuery
+566 287
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->debug
+calls=1 0 0
+569 202
+cfl=/usr/share/pear/PEAR.php
+cfn=PEAR->isError
+calls=1 0 0
+571 23
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+581 1
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+587 0
+cfl=php:internal
+cfn=php::mysql_query
+calls=1 0 0
+604 656
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->debug
+calls=1 0 0
+611 15
+
+fl=php:internal
+fn=php::is_a
+252 2
+
+fl=/usr/share/pear/PEAR.php
+fn=PEAR->isError
+250 37
+cfl=php:internal
+cfn=php::is_a
+calls=1 0 0
+252 2
+
+fl=php:internal
+fn=php::sprintf
+2566 9
+
+fl=php:internal
+fn=php::phpversion
+306 2
+
+fl=php:internal
+fn=php::version_compare
+306 7
+
+fl=php:internal
+fn=php::class_exists
+307 3
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2->classExists
+304 72
+cfl=php:internal
+cfn=php::phpversion
+calls=1 0 0
+306 2
+cfl=php:internal
+cfn=php::version_compare
+calls=1 0 0
+306 7
+cfl=php:internal
+cfn=php::class_exists
+calls=1 0 0
+307 3
+
+fl=php:internal
+fn=php::max
+3368 3
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Result_Common->__construct
+3363 36
+cfl=php:internal
+cfn=php::max
+calls=1 0 0
+3368 3
+
+fl=php:internal
+fn=php::is_a
+657 1
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2->isResultCommon
+655 23
+cfl=php:internal
+cfn=php::is_a
+calls=1 0 0
+657 1
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_wrapResult
+2541 189
+cfl=php:internal
+cfn=php::sprintf
+calls=1 0 0
+2566 9
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2->classExists
+calls=1 0 0
+2567 86
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Result_Common->__construct
+calls=1 0 0
+2572 39
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2->isResultCommon
+calls=1 0 0
+2573 25
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->query
+2502 218
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Driver_mysql->_modifyQuery
+calls=1 0 0
+2507 78
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->getConnection
+calls=1 0 0
+2509 216
+cfl=/usr/share/pear/PEAR.php
+cfn=PEAR->isError
+calls=1 0 0
+2510 50
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Driver_mysql->_doQuery
+calls=1 0 0
+2514 1188
+cfl=/usr/share/pear/PEAR.php
+cfn=PEAR->isError
+calls=1 0 0
+2515 40
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_wrapResult
+calls=1 0 0
+2519 348
+
+fl=php:internal
+fn=php::is_a
+657 0
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2->isResultCommon
+655 23
+cfl=php:internal
+cfn=php::is_a
+calls=1 0 0
+657 0
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 5
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 3
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 7
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 147
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 5
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 3
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 7
+
+fl=php:internal
+fn=php::is_a
+252 1
+
+fl=/usr/share/pear/PEAR.php
+fn=PEAR->isError
+250 22
+cfl=php:internal
+cfn=php::is_a
+calls=1 0 0
+252 1
+
+fl=php:internal
+fn=php::is_null
+3562 0
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 5
+
+fl=php:internal
+fn=php::is_array
+1157 1
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 3
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 5
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 154
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 5
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 1
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 3
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 5
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 4
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 2
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 5
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 130
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 4
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 2
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 5
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 2
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 27
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 6
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 131
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 2
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 27
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 6
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 2
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 47
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 5
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 138
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 2
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 47
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 5
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 2
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 3
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 5
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 170
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 2
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 3
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 5
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 3
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 2
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 5
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 128
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 3
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 2
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 5
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 3
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 2
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 5
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 131
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 3
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 2
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 5
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 3
+
+fl=php:internal
+fn=php::is_array
+1157 1
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 1
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 5
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 128
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 3
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 1
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 1
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 5
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 3
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 2
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 7
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 153
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 3
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 2
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 7
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 4
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 3
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 34
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 233
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 4
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 3
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 34
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 4
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 2
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 5
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 132
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 4
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 2
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 5
+
+fl=php:internal
+fn=php::is_null
+1146 0
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 2
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=php:internal
+fn=php::array_change_key_case
+1160 2
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->_fixResultArrayValues
+1755 6
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 130
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 0
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 2
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+cfl=php:internal
+cfn=php::array_change_key_case
+calls=1 0 0
+1160 2
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->_fixResultArrayValues
+calls=1 0 0
+1177 6
+
+fl=php:internal
+fn=php::is_null
+1146 1
+
+fl=php:internal
+fn=php::mysql_fetch_assoc
+1156 0
+
+fl=php:internal
+fn=php::is_array
+1157 0
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->fetchRow
+1144 74
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+1146 1
+cfl=php:internal
+cfn=php::mysql_fetch_assoc
+calls=1 0 0
+1156 0
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+1157 0
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Result_Common->fetchAll
+3550 655
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3554 165
+cfl=/usr/share/pear/PEAR.php
+cfn=PEAR->isError
+calls=1 0 0
+3555 24
+cfl=php:internal
+cfn=php::is_null
+calls=1 0 0
+3562 0
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 171
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 144
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 169
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 195
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 183
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 142
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 143
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 141
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 167
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 277
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 147
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 143
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->fetchRow
+calls=1 0 0
+3607 77
+
+fl=php:internal
+fn=php::is_resource
+1263 1
+
+fl=php:internal
+fn=php::mysql_free_result
+1264 5
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Result_mysql->free
+1261 56
+cfl=php:internal
+cfn=php::is_resource
+calls=1 0 0
+1263 1
+cfl=php:internal
+cfn=php::mysql_free_result
+calls=1 0 0
+1264 5
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->queryAll
+3303 146
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->query
+calls=1 0 0
+3306 2141
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2->isResultCommon
+calls=1 0 0
+3307 24
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Result_Common->fetchAll
+calls=1 0 0
+3311 2949
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Result_mysql->free
+calls=1 0 0
+3312 63
+
+fl=/oldsample/lib/classes/GameList.php
+fn=GameList->getGameList
+12 167
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->queryAll
+calls=1 0 0
+16 28365
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->queryAll
+calls=1 0 0
+19 5326
+
+fl=php:internal
+fn=php::is_array
+582 0
+
+fl=/oldsample/lib/Smarty/Smarty.class.php
+fn=Smarty->assign
+580 31
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+582 0
+
+fl=php:internal
+fn=php::error_reporting
+1121 0
+
+fl=php:internal
+fn=php::error_reporting
+1121 3
+
+fl=php:internal
+fn=php::count
+1237 1
+
+fl=php:internal
+fn=php::basename
+1750 44
+
+fl=php:internal
+fn=php::urlencode
+1750 19
+
+fl=php:internal
+fn=php::crc32
+1751 20
+
+fl=php:internal
+fn=php::sprintf
+1751 4
+
+fl=php:internal
+fn=php::substr
+1754 1
+
+fl=php:internal
+fn=php::substr
+1755 0
+
+fl=/oldsample/lib/Smarty/Smarty.class.php
+fn=Smarty->_get_auto_filename
+1736 159
+cfl=php:internal
+cfn=php::basename
+calls=1 0 0
+1750 44
+cfl=php:internal
+cfn=php::urlencode
+calls=1 0 0
+1750 19
+cfl=php:internal
+cfn=php::crc32
+calls=1 0 0
+1751 20
+cfl=php:internal
+cfn=php::sprintf
+calls=1 0 0
+1751 4
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+1754 1
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+1755 0
+
+fl=/oldsample/lib/Smarty/Smarty.class.php
+fn=Smarty->_get_compile_path
+1510 55
+cfl=/oldsample/lib/Smarty/Smarty.class.php
+cfn=Smarty->_get_auto_filename
+calls=1 0 0
+1513 251
+
+fl=php:internal
+fn=php::count
+1251 0
+
+fl=php:internal
+fn=php::file_exists
+1379 92
+
+fl=php:internal
+fn=php::explode
+1618 3
+
+fl=php:internal
+fn=php::count
+1620 0
+
+fl=php:internal
+fn=php::preg_match
+1636 32
+
+fl=php:internal
+fn=php::file_exists
+1641 17
+
+fl=/oldsample/lib/Smarty/internals/core.get_include_path.php
+fn=require_once::/oldsample/lib/Smarty/internals/core.get_include_path.php
+1 1
+
+fl=php:internal
+fn=php::ini_get
+24 17
+
+fl=php:internal
+fn=php::strstr
+26 0
+
+fl=php:internal
+fn=php::explode
+30 2
+
+fl=php:internal
+fn=php::is_readable
+34 21
+
+fl=/oldsample/lib/Smarty/internals/core.get_include_path.php
+fn=smarty_core_get_include_path
+19 110
+cfl=php:internal
+cfn=php::ini_get
+calls=1 0 0
+24 17
+cfl=php:internal
+cfn=php::strstr
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::explode
+calls=1 0 0
+30 2
+cfl=php:internal
+cfn=php::is_readable
+calls=1 0 0
+34 21
+
+fl=/oldsample/lib/Smarty/Smarty.class.php
+fn=Smarty->_parse_resource_name
+1614 863
+cfl=php:internal
+cfn=php::explode
+calls=1 0 0
+1618 3
+cfl=php:internal
+cfn=php::count
+calls=1 0 0
+1620 0
+cfl=php:internal
+cfn=php::preg_match
+calls=1 0 0
+1636 32
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+1641 17
+cfl=/oldsample/lib/Smarty/internals/core.get_include_path.php
+cfn=require_once::/oldsample/lib/Smarty/internals/core.get_include_path.php
+calls=1 0 0
+1647 1
+cfl=/oldsample/lib/Smarty/internals/core.get_include_path.php
+cfn=smarty_core_get_include_path
+calls=1 0 0
+1648 153
+
+fl=php:internal
+fn=php::filemtime
+1550 9
+
+fl=php:internal
+fn=php::is_file
+1551 15
+
+fl=php:internal
+fn=php::is_readable
+1551 6
+
+fl=/oldsample/lib/Smarty/Smarty.class.php
+fn=Smarty->_fetch_resource_info
+1530 149
+cfl=/oldsample/lib/Smarty/Smarty.class.php
+cfn=Smarty->_parse_resource_name
+calls=1 0 0
+1542 1074
+cfl=php:internal
+cfn=php::filemtime
+calls=1 0 0
+1550 9
+cfl=php:internal
+cfn=php::is_file
+calls=1 0 0
+1551 15
+cfl=php:internal
+cfn=php::is_readable
+calls=1 0 0
+1551 6
+
+fl=php:internal
+fn=php::filemtime
+1389 9
+
+fl=/oldsample/lib/Smarty/Smarty.class.php
+fn=Smarty->_is_compiled
+1377 85
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+1379 92
+cfl=/oldsample/lib/Smarty/Smarty.class.php
+cfn=Smarty->_fetch_resource_info
+calls=1 0 0
+1386 1255
+cfl=php:internal
+cfn=php::filemtime
+calls=1 0 0
+1389 9
+
+fl=php:internal
+fn=php::is_array
+51 0
+
+fl=php:internal
+fn=php::count
+51 0
+
+fl=/oldsample/lib/Smarty/compiledTemplates/%%45^45E^45E480CD%%index.tpl.php
+fn=include::/oldsample/lib/Smarty/compiledTemplates/%%45^45E^45E480CD%%index.tpl.php
+1 769
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+51 0
+cfl=php:internal
+cfn=php::count
+calls=1 0 0
+51 0
+
+fl=php:internal
+fn=php::error_reporting
+1303 9
+
+fl=/oldsample/lib/Smarty/Smarty.class.php
+fn=Smarty->fetch
+1116 806
+cfl=php:internal
+cfn=php::error_reporting
+calls=1 0 0
+1121 0
+cfl=php:internal
+cfn=php::error_reporting
+calls=1 0 0
+1121 3
+cfl=php:internal
+cfn=php::count
+calls=1 0 0
+1237 1
+cfl=/oldsample/lib/Smarty/Smarty.class.php
+cfn=Smarty->_get_compile_path
+calls=1 0 0
+1245 306
+cfl=php:internal
+cfn=php::count
+calls=1 0 0
+1251 0
+cfl=/oldsample/lib/Smarty/Smarty.class.php
+cfn=Smarty->_is_compiled
+calls=1 0 0
+1252 1441
+cfl=/oldsample/lib/Smarty/compiledTemplates/%%45^45E^45E480CD%%index.tpl.php
+cfn=include::/oldsample/lib/Smarty/compiledTemplates/%%45^45E^45E480CD%%index.tpl.php
+calls=1 0 0
+1255 771
+cfl=php:internal
+cfn=php::error_reporting
+calls=1 0 0
+1303 9
+
+fl=/oldsample/lib/Smarty/Smarty.class.php
+fn=Smarty->display
+1103 71
+cfl=/oldsample/lib/Smarty/Smarty.class.php
+cfn=Smarty->fetch
+calls=1 0 0
+1105 3341
+
+fl=/oldsample/index.php
+fn={main}
+
+summary: 87165
+
+1 1255
+cfl=php:internal
+cfn=php::error_reporting
+calls=1 0 0
+2 97
+cfl=/oldsample/lib/init.php
+cfn=include::/oldsample/lib/init.php
+calls=1 0 0
+3 48501
+cfl=/oldsample/lib/classes/GameList.php
+cfn=include::/oldsample/lib/classes/GameList.php
+calls=1 0 0
+4 1
+cfl=/oldsample/lib/classes/GameList.php
+cfn=GameList->__construct
+calls=1 0 0
+6 5
+cfl=/oldsample/lib/classes/GameList.php
+cfn=GameList->getGameList
+calls=1 0 0
+13 33859
+cfl=/oldsample/lib/Smarty/Smarty.class.php
+cfn=Smarty->assign
+calls=1 0 0
+13 32
+cfl=/oldsample/lib/Smarty/Smarty.class.php
+cfn=Smarty->display
+calls=1 0 0
+14 3412
+
+fl=php:internal
+fn=php::is_resource
+533 4
+
+fl=php:internal
+fn=php::mysql_close
+548 435
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->disconnect
+2236 24
+
+fl=/usr/share/pear/MDB2/Driver/mysql.php
+fn=MDB2_Driver_mysql->disconnect
+531 119
+cfl=php:internal
+cfn=php::is_resource
+calls=1 0 0
+533 4
+cfl=php:internal
+cfn=php::mysql_close
+calls=1 0 0
+548 435
+cfl=/usr/share/pear/MDB2.php
+cfn=MDB2_Driver_Common->disconnect
+calls=1 0 0
+551 24
+
+fl=/usr/share/pear/MDB2.php
+fn=MDB2_Driver_Common->__destruct
+1322 34
+cfl=/usr/share/pear/MDB2/Driver/mysql.php
+cfn=MDB2_Driver_mysql->disconnect
+calls=1 0 0
+1324 583
+
