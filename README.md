@@ -1,7 +1,7 @@
 vagrant-webgrind
 ================
 
-A Sample Vagrant Box with a working example webgrind 
+A Sample Vagrant Box with a working webgrind installation and example Xdebug trace file
 
 How to access webgrind
 ======================
@@ -18,4 +18,4 @@ What is webgrind
 Usage of own Xdebug Tracefiles
 ==============================
 
-Just put them into the modules/traces folder with and name them xdebug.out.<integer>
+Just put them into the modules/traces folder and name them xdebug.out.<integer>
