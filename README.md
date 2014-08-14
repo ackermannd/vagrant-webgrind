@@ -1,7 +1,7 @@
 vagrant-webgrind
 ================
 
-A Sample Vagrant Box with a working webgrind installation and example Xdebug trace file
+A Sample Vagrant Box with working webgrind installation and example Xdebug trace file
 
 How to access webgrind
 ======================
